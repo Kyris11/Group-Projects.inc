@@ -38,8 +38,6 @@ class User:
             if 1 <= index <= len(self.list):
                 del self.list[index - 1]
                 self.task -= 1
-        # self.clear_screen()
-
     def mark(self):
         self.view_task()
         
@@ -49,7 +47,6 @@ class User:
             index = int(input())
             self.list[index-1] = strike_through(self.list[index-1])
             self.task -=1
-        # self.clear_screen()
 
 # I will complete this project
 # even if it cost me, my life
