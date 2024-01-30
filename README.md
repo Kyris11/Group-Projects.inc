@@ -1,3 +1,3 @@
-
-Repository for beginner coders like us to work on
-
+# Group-Projects.inc
+Repo for beginner coders only
+this is for practice
